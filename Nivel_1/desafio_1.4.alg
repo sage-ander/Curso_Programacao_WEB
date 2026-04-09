@@ -6,16 +6,17 @@ algoritmo "Simulador de Inventário"
 // Data atual  : 08/04/2026
 var
 
-    item: caractere
+    item, reserva: caractere
 
 inicio
 
     escreva ("Digite o 1º item a ser adicionado ao inventário: ")
     leia(item)
     escreval("O 1º item adicionado foi: ", item, ".")
+    reserva <-item
     escreva("Digite o 2º item a ser adcionado: ")
     leia(item)
-    escreval("1º item descartado, 2º item adicionado: ", item, ".")
+    escreval("1º item ",reserva, " descartado, 2º item adicionado: ", item, ".")
     escreval(" ")
     escreval("Resetando inventário")
     item <- " "
