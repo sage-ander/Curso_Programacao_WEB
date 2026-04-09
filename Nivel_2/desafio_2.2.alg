@@ -26,7 +26,7 @@ inicio
     escreval(" ")
     escreval(" ======= Média do Aluno ====== ")
     escreval(" ")
-    media <- {[(n_p_p *3) + (n_p_e *2)]/5}
+    media <- ((n_p_p *3) + (n_p_e *2))/5
     escreva(" A média obtida pelo aluno foi: ",media:0:2, ".")
 
 fimalgoritmo
