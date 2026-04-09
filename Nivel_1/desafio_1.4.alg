@@ -6,12 +6,20 @@ algoritmo "Simulador de Inventário"
 // Data atual  : 08/04/2026
 var
 
-teste: caractere
+    item: caractere
 
 inicio
 
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
+    escreva ("Digite o 1º item a ser adicionado ao inventário: ")
+    leia(item)
+    escreval("O 1º item adicionado foi: ", item, ".")
+    escreva("Digite o 2º item a ser adcionado: ")
+    leia(item)
+    escreval("1º item descartado, 2º item adicionado: ", item, ".")
+    escreval(" ")
+    escreval("Resetando inventário")
+    item <- " "
+    escreval(".......................")
+    escreva("Inventário resetado. Valor atual: ",item, ".")
 
 fimalgoritmo
