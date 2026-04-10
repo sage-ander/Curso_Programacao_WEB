@@ -24,13 +24,13 @@ inicio
     n_100 <- v_saque\100
     resto<- v_saque MOD 100
     n_50 <- resto \ 50
-    resto <- n_50 MOD 50
+    resto <- resto MOD 50
     n_20 <- resto \ 20
-    resto <- n_20 MOD 20
+    resto <- resto MOD 20
     n_10 <- resto \ 10
-    resto <- n_10 MOD 10
+    resto <- resto MOD 10
     n_5 <- resto \ 5
-    resto <- n_5 MOD 5
+    resto <- resto MOD 5
     n_1 <- resto \1
 
     escreval(" ===== Quantidade de Notas a serem liberadas ===== ")
