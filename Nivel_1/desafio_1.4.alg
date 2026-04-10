@@ -19,7 +19,7 @@ inicio
     escreval("1º item ",reserva, " descartado, 2º item adicionado: ", item, ".")
     escreval(" ")
     escreval("Resetando inventário")
-    item <- " "
+    item <- 0
     escreval(".......................")
     escreva("Inventário resetado. Valor atual: ",item, ".")
 
