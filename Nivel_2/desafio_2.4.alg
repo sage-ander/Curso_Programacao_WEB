@@ -24,7 +24,7 @@ inicio
     hora <- t_inf \ 3600
     resto <- t_inf MOD 3600
     min <- resto \ 60
-    seg <- min MOD 60
+    seg <- resto MOD 60
     
     escreval(" === Conversão Finalizada ====")
     escreval(" ")
