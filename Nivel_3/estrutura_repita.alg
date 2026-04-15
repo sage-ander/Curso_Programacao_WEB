@@ -35,4 +35,5 @@ inicio
     se (tentativas >= 3) entao
         escreval("Número máximo de tentativas atingido. Acesso bloqueado.")
     fimse
+    limpatela
 fimalgoritmo
